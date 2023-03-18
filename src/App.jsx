@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <header className="header">
-        <img className="imgHeader" src="/public/logo.svg" alt="" />
+        <img className="imgHeader" src="/logo.svg" alt="" />
       </header>
 
       <div className="searchLocation">
