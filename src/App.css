@@ -1,0 +1,124 @@
+.header {
+  display: grid;
+  justify-content: center;
+}
+
+.imgHeader {
+  width: 60%;
+}
+
+.searchLocation {
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  justify-content: center;
+  margin: 1rem;
+  
+}
+
+.location {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  justify-content: center;
+  background-color: #3e3c3c;
+
+}
+
+.btnSearchId {
+  width: 215px;
+  height: 60px;
+  font-size: 20px;
+  fill: rgba(142, 255, 139, 0.5);
+  border: solid #8eff8b;
+  background-color: rgba(142, 255, 139, 0.5);
+  color: #fbfbfb;
+}
+
+.btnSearchId:hover {
+  color: black;
+  background-color: #8eff8b;
+}
+
+.residentInfo {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+
+}
+
+.cardResident {
+
+  border: 1px solid #8eff8b;
+  padding: 1rem;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  border: 1px solid #8eff8b;
+  display: grid;
+  justify-content: center;
+
+}
+
+.imgCharacter {
+  width: 150px;
+  height: 150px;
+
+}
+
+.InfoResident {
+
+  display: grid;
+  justify-content: center;
+
+}
+
+.alive{
+  width: 108px;
+  height: 42px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  border: 1px solid #8eff8b;
+  background-color: #3e3c3c;
+
+  margin: 15px;
+
+  
+}
+
+.circule{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 5px;
+}
+
+/* breackpoint */
+
+@media (min-width: 0px) and (max-width: 480px){
+  .location {
+    font-size: 10px;
+    gap: 1rem;
+    margin: 5px;
+  }
+
+  .btnSearchId {
+    width: 107px;
+    height: 60px;
+    font-size: 20px;
+    fill: rgba(142, 255, 139, 0.5);
+    border: solid #8eff8b;
+    background-color: rgba(142, 255, 139, 0.5);
+    color: #fbfbfb;
+  }
+}
